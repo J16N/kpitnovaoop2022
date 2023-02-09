@@ -23,13 +23,13 @@ After this a new `runner.cpp` will be created in the same location.
   
 Now compile the `runner.cpp` file appropriately using any of your preferred C++ compiler. 
 ```
-$ g++ -o runner complex.cpp runner.cpp
+$ g++ -o runner bitmap.cpp runner.cpp
 ```
 A new executable file named `runner` will be created in the same location.  
   
 Now if you execute that file, you should see something like the following.
 ```
 $ ./runner
-Running cxxtest tests (4 tests)....OK!
+Running cxxtest tests (1 test).OK!
 ```
 Congratulations! All your tests have passed and you have no error.
