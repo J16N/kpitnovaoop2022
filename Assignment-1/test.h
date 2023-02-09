@@ -1,7 +1,7 @@
 #include <cxxtest/TestSuite.h>
-#include "bitmap.h"
+#include "complex.h"
 
-class calcTestSuite:public CxxTest::TestSuite
+class complexTestSuite:public CxxTest::TestSuite
 {
     public:
         void testAddition()
